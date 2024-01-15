@@ -13,7 +13,7 @@ li {
 }
 
 #yotsuba {
-  background-image: url('assets/yotsuba.png');
+  background-image: url('/assets/yotsuba.png');
   position: fixed;
   right: 0px;
   bottom: 0px;

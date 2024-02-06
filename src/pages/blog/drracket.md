@@ -1,9 +1,10 @@
 ---
 layout: ../../layouts/Post.astro
-title: Example Blog
-description: This is an example blog post
-publishDate: Saturday, July 31 2021
+title: Dr. Racket, Save Me
+description: My unorthodox introduction to programming & computer science
+publishDate: Sunday, Feb 4, 2024
 author: "Shafayat Manzur"
-image: "/assets/blog/example-blog/alex-bertha-7VAXeUIn3tI-unsplash.jpg"
+image: "/assets/blog/example-blog/schemelang.jpg"
 alt: The Drracket logo
 ---
+

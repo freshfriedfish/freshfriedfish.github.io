@@ -1,16 +1,33 @@
 :root {
-  --container-width: 700px;
-  --container-padding: 0rem;
-
+  --container-width: 600px;
+  /* --container-padding: 0rem; */
 }
 
-a {
-  text-decoration: none;
-  margin-right: 10px;
+nav span {
+  padding-right: 10px
+}
+
+body {
+  font-family: system, -apple-system, san francisco, roboto, segoe ui, helvetica neue, helvetica, lucida grande, arial, sans-serif;
+  padding: 0 10px;
+  line-height: 1.2;
+  font-size: 16px;
+  color: #111;
+  background-color: #fffefa
+}
+
+a:link {
+  color: #06f
 }
 
 li {
-  margin: 5px 0;
+  line-height: 1.4
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1
 }
 
 #yotsuba {
@@ -19,17 +36,13 @@ li {
   right: 0px;
   bottom: 0px;
   width: 370px;
-  height: 380px;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  font-family: system, -apple-system, "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", sans-serif;
-  font-size: 16px;
-  background-color: #fffefa;
-
+@media screen and (max-width: 800px) {
+  #yotsuba {
+    display: none !important
+  }
 }
